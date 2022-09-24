@@ -20,8 +20,8 @@ function loadData() {
             console.log(labels_for_chart);
             console.log( data_for_chart);
             const myChart = new Chart(ctx, {
-                type: 'bar',
-               // type: 'line',
+                //type: 'bar',
+                type: 'line',
                 data: {
                     labels: labels_for_chart,
                     datasets: [{
